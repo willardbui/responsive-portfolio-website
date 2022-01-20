@@ -592,7 +592,7 @@ transform: rotate(-180deg);
 
 .contact__subtitle{
     font-size: var(--small-font-size);
-    color: var(--text-color-light)
+    color: var(--text-color-light);
 }
 
 .contact__content{
@@ -602,7 +602,7 @@ transform: rotate(-180deg);
 }
 
 .contact__label{
-    font-size:var(--smaller-font-size);
+    font-size: var(--smaller-font-size);
     color: var(--title-color);
 }
 
@@ -619,7 +619,7 @@ transform: rotate(-180deg);
 
 /*==================== FOOTER ====================*/
 .footer{
-    padding-top: 2 rem;
+    padding-top: 2rem;
 }
 
 .footer__container{
@@ -758,7 +758,22 @@ transform: rotate(-180deg);
         grid-template-columns: repeat(1, 1fr); 
     }
 
-    
+    .qualification__sections{
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
+
+    .contact__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact__my-info{
+        padding: 3.5rem;
+    }
+    .contact__fill{
+        padding-right: 3.5rem;
+    }
 }
+
 
 /* For large devices */
