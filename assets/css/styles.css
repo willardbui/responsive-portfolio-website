@@ -868,12 +868,23 @@ transform: rotate(-180deg);
         grid-template-columns: .5fr;
     }
 
+    .footer__bg{
+        position: absolute;
+        width: 100%;
+    }
     .footer__container{
         grid-template-columns:repeat(2, 1fr);
     }
     .footer__links{
         flex-direction: row;
         column-gap: 5rem;
+    }
+
+    .scrollup{
+        right: 1.5rem;
+    }
+    .show-scroll{
+        bottom: 3rem;
     }
 }
 /* For large devices */
@@ -892,6 +903,9 @@ transform: rotate(-180deg);
         width: 95vw;
     }
 
+    .home__content{
+        grid-template-columns: .8fr 1fr;
+    }
     .home__blob{
         width: 30vw;
     }
@@ -937,6 +951,9 @@ transform: rotate(-180deg);
         padding-left: 20%;
         grid-template-columns: repeat(1,1fr);
     }
+    .contact__fill{
+        padding-right: 4rem;
+    }
 
     .footer__my-info{
         padding-left: 3rem;
@@ -947,6 +964,11 @@ transform: rotate(-180deg);
         .footer__links{
             padding-right: 3rem;
             justify-content: flex-end;
+        }
+
+        .contact__fill{
+            padding-left: 15%;
+            padding-right: 0;
         }
     }
 
