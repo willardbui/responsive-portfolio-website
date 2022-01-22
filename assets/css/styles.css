@@ -106,9 +106,9 @@ body.dark-theme {
     margin: 0;
 }
 
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 body{
     margin: 0 0 var(--header-height) 0;
