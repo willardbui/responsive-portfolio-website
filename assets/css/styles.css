@@ -301,7 +301,8 @@ img{
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 190px;
+    transform: translateX(-.5rem) translateY(-.5rem);
 }
 
 .home__data{
@@ -455,7 +456,6 @@ img{
 .skills__titles{
     display: flex;
     justify-content: space-between;
-    margin-bottom: var(--mb-2-5);
 }
 
 .skills__name{
@@ -554,19 +554,7 @@ transform: rotate(-180deg);
     border-radius: .2rem;
 }
 
-/*==================== SERVICES ====================*/
-
-
-/* Active Modal */
-
-
 /*==================== PORTFOLIO ====================*/
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
 
 
 /*==================== CONTACT ME ====================*/
@@ -928,12 +916,17 @@ transform: rotate(-180deg);
 
     .skills__container{
         margin: 8rem;
+        column-gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .skills__title{
+        width: max-content;
     }
     .skills__arrow{
         margin-left: 1rem;
     }
     .skills__header{
-        padding-left: 25%;
+        justify-content: center;
     }
 
     .qualification__tabs{
