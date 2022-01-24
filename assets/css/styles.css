@@ -477,6 +477,38 @@ img{
 transform: rotate(-180deg);
 }
 
+.skills__bar,
+.skills__percentage{
+    margin-top: .25rem;
+    height: 5px;
+    border-radius: .5rem;
+}
+
+.skills__bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills__java{
+    width: 90%;
+}
+.skills__python,
+.skills__html{
+    width: 80%;
+}
+.skills__C,
+.skills__css{
+    width: 75%;
+}
+.skills__assembly,
+.skills__js{
+    width: 60%;
+}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display: flex;
