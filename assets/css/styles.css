@@ -924,16 +924,10 @@ transform: rotate(-180deg);
     }
 
     .home__content{
-        grid-template-columns: .8fr 1fr;
+        padding-left: 3rem;
     }
     .home__blob{
         width: 30vw;
-    }
-    .home__social{
-        display: none;
-    }
-    .home__data{
-        margin-left: 4rem;
     }
 
     .about__data{
